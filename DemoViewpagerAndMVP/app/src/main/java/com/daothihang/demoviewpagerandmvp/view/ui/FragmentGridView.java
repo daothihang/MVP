@@ -42,7 +42,7 @@ public class FragmentGridView extends Fragment implements MainView {
 
     private void init() {
         mainPresenter = new MainPresenter(this);
-        mainPresenter.showList();
+        mainPresenter.showList1();
     }
 
     @Override

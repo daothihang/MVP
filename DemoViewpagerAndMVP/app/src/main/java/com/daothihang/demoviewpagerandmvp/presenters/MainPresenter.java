@@ -21,11 +21,19 @@ public class MainPresenter implements LoadData {
     }
     public void showList(){
         dta.loadUser();
+
+    }
+    public void showList1(){
+        dta.loadUser1();
+
+    }
+    public void showList2(){
+        dta.loadUser2();
+
     }
     @Override
     public void loadData(List<Users> usersList) {
         mainView.hienThi(usersList);
 
-        Log.d("abc", "loadData: "+usersList.size());
     }
 }

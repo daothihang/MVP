@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/_200sdp"
         android:id="@+id/img_avatar_url"
-        android:scaleType="fitXY"
+        android:scaleType="centerCrop"
         android:src="@drawable/ic_launcher_background" />
 
     <LinearLayout
